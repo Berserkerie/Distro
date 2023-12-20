@@ -1,0 +1,175 @@
+/* SELECTOR UNIVERSAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* RESPONSIVE? */
+.home{
+    display: flex;
+}
+
+/* HEADER */
+header{
+    background-color: #0b131d;
+    height: 90px;
+}
+.icons{
+    margin-right: 1000px;
+    width: 100%; /* ANCHO DEL CONTENEDOR */
+    height: 70px; /* ALTO DE CONTENEDOR */
+}
+
+.menu {
+    float: right;
+    padding-right: 5px;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+/* LOGO DA VINCI */
+.logo{
+    margin-top: -80px;
+    text-align: left;
+    margin-left: 45px;
+}
+.logo2{
+    text-align: right;
+    margin-top: -235px;
+    margin-right: 200px;
+}
+
+/* PRIMERA SECCION / BUSCADORES */
+.backsearch{
+    background-color: #56a697;
+    height: 400px;
+}
+.buscador{
+    margin-left: 300px;
+    position: relative;
+}
+.cont1{
+    margin-top: 60PX;
+}
+input{
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 0 0 5px;
+    border: 0;
+    outline: none;
+}
+.cont2{
+    margin-top: 60PX;
+}
+input{
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 100px;
+    /* border: 100px;
+    outline: #000000; */
+}
+.buscar{
+    background-color: #f2b33d;
+    padding: 15px 40px;
+    margin-top: 20px;
+    margin-left: 140px;
+    border-radius: 40PX;
+    color: white;
+}
+
+/* EDITORIALES */
+.editorial{
+    background-color: #17212d;
+    height: 550px;
+    color: white;
+    font-size: 30px;
+}
+.edito{
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img{
+    margin-left: 30px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+/* EJEMPLARES */
+.libro{
+    background-color: #56a697;
+    height: 1750px;
+    font-size: 30px;
+}
+.ejemplares{
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.img2{
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.info1{
+    display: flex;
+    align-items: center;
+}
+.info2{
+    font-size: 20px;
+    margin-right: 500px;    
+}
+.line1{
+    border-left: 2px solid black;
+    height: 400px;
+    position: absolute;
+    left: 70%;
+    margin-left: -4px;
+    top: 1160px;
+}
+.line2{
+    border-left: 2px solid black;
+    height: 400px;
+    position: absolute;
+    left: 70%;
+    margin-left: -4px;
+    top: 1700px;
+}
+.line3{
+    border-left: 2px solid black;
+    height: 400px;
+    position: absolute;
+    left: 70%;
+    margin-left: -4px;
+    top: 2300px;
+}
+.costo{
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.comprar{
+    background-color: #17212d;
+    padding: 15px 40px;
+    margin-top: 20px;
+    margin-left: 140px;
+    border-radius: 40PX;
+    color: white;
+}
+
+/* PIE DE PAGINA */
+.final{
+    background-color: #17212d;
+    height: 200px;
+    color: white;
+    display: flex;
+}
+.final2{
+    margin-left: 200px;
+}
+.final3{
+    margin-left: 90px;
+}
+.final2p{
+    margin-top: 100px;
+}
+.final3p{
+    margin-top: 100px;
+}
